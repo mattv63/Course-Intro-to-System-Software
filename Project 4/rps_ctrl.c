@@ -18,7 +18,7 @@ char buffer[5];
 
 int main(){
 	
-	fd = open("fuck.txt", O_WRONLY | O_CREAT);
+	fd = open("project4.txt", O_WRONLY | O_CREAT);
 	printf("HERE");
 	signal(SIGALRM, catch_alarm);
 	signal(SIGRTMIN, catch_sigrtmin);
